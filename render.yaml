@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: garmin-api
+    runtime: docker
+    plan: free
+    envVars:
+      - key: GARMIN_EMAIL
+        sync: false
+      - key: GARMIN_PASSWORD
+        sync: false
+      - key: API_KEY
+        sync: false
