@@ -1,0 +1,4 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+garminconnect>=0.2.38
+pydantic>=2.0
